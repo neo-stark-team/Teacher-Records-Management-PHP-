@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','trms');
+define('DB_HOST','database-1.c7j0ofgsqkxi.us-east-1.rds.amazonaws.com');
+define('DB_USER','admin');
+define('DB_PASS','examly2023');
+define('DB_NAME','trmanagement');
 // Establish database connection.
 try
 {

@@ -65,7 +65,7 @@ foreach($results as $row)
                                 <img class="card-img-top" src="teacher/images/<?php echo $row->Picture;?>" alt="<?php  echo htmlentities($row->Name);?>" />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2"><?php  echo htmlentities($row->TeacherSub);?></div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="teacher-details.php?tid=<?php echo $row->ID;?>" target="_blank">
+                                    <a class="text-decoration-none link-dark stretched-link" href="teacher-details.php?tid=<?php echo $row->ID;?>">
                                         <h5 class="card-title mb-3"><?php  echo htmlentities($row->Name);?></h5></a>
                                     <p class="card-text mb-0"><small>Registered Since <?php  echo htmlentities($row->RegDate);?></small></p>
                                 </div>
